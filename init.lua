@@ -3,7 +3,7 @@
 ---@param base number The base to convert to.
 ---@return string
 ---@nodiscard
-tobase = function(x, base)
+return function(x, base)
     local result = {}
     
     if x == 0 then return "0" end
